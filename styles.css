@@ -1,0 +1,19 @@
+.container {
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 1800px;
+  }
+  .container > div {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    border: black solid 2px;
+    align-content: center;
+    flex: 0 0 auto;
+  }
+  .divs:hover {
+    background-color: #C879F0;
+  }
